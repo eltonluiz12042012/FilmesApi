@@ -83,30 +83,9 @@ Entity Framework Core
 MySQL
 🗂️ Estrutura do Projeto
 
-Uma possível organização da aplicação:
+Organização da aplicação:
 
-ProjetoCinema/
-│
-├── Controllers/
-│   ├── FilmeController.cs
-│   ├── CinemaController.cs
-│   ├── EnderecoController.cs
-│   └── SessaoController.cs
-│
-├── Data/
-│   └── AppDbContext.cs
-│
-├── Models/
-│   ├── Filme.cs
-│   ├── Cinema.cs
-│   ├── Endereco.cs
-│   └── Sessao.cs
-│
-├── Migrations/
-│
-├── Program.cs
-│
-└── appsettings.json
+
 ⚙️ Pré-requisitos
 
 Antes de executar o projeto, é necessário ter instalado:
