@@ -1,3 +1,4 @@
+<img width="595" height="479" alt="Screenshot_1" src="https://github.com/user-attachments/assets/6798eda4-41b8-41a0-8862-7bc3a08b575e" />
 🎬 API REST — Gerenciamento de Cinema
 
 API REST desenvolvida para gerenciamento de filmes, cinemas, endereços e sessões de cinema. O projeto foi criado com foco em boas práticas de desenvolvimento de APIs utilizando o ecossistema .NET 6 e Entity Framework Core.
@@ -84,6 +85,7 @@ MySQL
 🗂️ Estrutura do Projeto
 
 Organização da aplicação:
+<img width="595" height="479" alt="Screenshot_1" src="https://github.com/user-attachments/assets/c51a11ad-4858-483e-8123-bda58d317a4b" />
 
 
 ⚙️ Pré-requisitos
