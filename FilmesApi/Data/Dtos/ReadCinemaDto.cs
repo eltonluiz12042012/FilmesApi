@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FilmesApi.models;
+using System.ComponentModel.DataAnnotations;
 
 namespace FilmesApi.Data.Dtos;
 
@@ -9,4 +10,6 @@ public class ReadCinemaDto
     public string Nome { get; set; }
 
     public ReadEnderecoDto Endereco { get; set; }
+
+    public ICollection<Sessao> Sessoes { get; set; }
 }

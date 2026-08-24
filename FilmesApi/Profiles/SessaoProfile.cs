@@ -1,6 +1,15 @@
-﻿namespace FilmesApi.Profiles
+﻿using AutoMapper;
+using FilmesApi.Data.Dtos;
+using FilmesApi.models;
+
+namespace FilmesApi.Profiles
 {
-    public class SessaoProfile
+    public class SessaoProfile : Profile
     {
+        public SessaoProfile()
+        {
+            CreateMap<CreateSessaoDto, Sessao>();
+            CreateMap<Sessao, ReadSessaoDto>();
+        }
     }
 }

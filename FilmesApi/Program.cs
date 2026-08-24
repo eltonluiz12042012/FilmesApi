@@ -5,6 +5,13 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers()
+    .AddNewtonsoftJson(options =>
+    {
+        options.SerializerSettings.ReferenceLoopHandling =
+            Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+    });
+
 var connectionString = builder.Configuration.GetConnectionString("FilmeConnection");
 
 builder.Services.AddDbContext<FilmeContext>(opts =>
