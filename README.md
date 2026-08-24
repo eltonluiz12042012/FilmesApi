@@ -157,7 +157,7 @@ Novas funcionalidades e melhorias poderão ser adicionadas ao projeto futurament
 
 👨‍💻 Autor
 
-Seu Nome
+Elton Luiz dos Santos do Franco
 
 Desenvolvedor Backend
 
